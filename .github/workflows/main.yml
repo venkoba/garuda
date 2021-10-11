@@ -1,0 +1,15 @@
+stages:
+  - test
+
+api_tests:
+  stage: test
+  image: 
+    name : rvancea/maven-chrome-jdk8:latest
+  
+  script:
+    - mvn clean test
+
+  artifacts:
+    when: always
+    paths:
+        - APIReport.html
