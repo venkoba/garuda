@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Polygon">
+
+
+	<test name="Smoke Test">
+        <classes>
+            <class name="Module.SmokeTest"/>
+             
+        </classes>
+    </test>
+    
+</suite> <!-- Suite -->
+
