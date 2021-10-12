@@ -32,5 +32,11 @@ jobs:
       - name: Step 4 - Run Test Framework Maven
         run: mvn clean test
         
+      - name: Step 5 - Upload the artifact 
+        uses: actions/upload-artifact@v2
+        with:
+            name: Test Results for Smoke
+            path: TestResults.html
+        
       
           
