@@ -37,6 +37,7 @@ jobs:
         with:
             name: Test Results for Smoke
             path: TestResults.html
+        if: always()
         
       
           
