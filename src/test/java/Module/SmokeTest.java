@@ -147,7 +147,7 @@ public class SmokeTest extends PageInitializers {
 
 		homePage().click_reject_btn();
 		
-		getDriver().close();
+		//getDriver().close();
 
 		getDriver().switchTo().window(tabs2.get(0));
 		homePage().verify_denied_trans_msg("User denied transaction from Metamask").clickOnconfirmDepositPopup_closeButton();
